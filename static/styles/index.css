@@ -1,0 +1,169 @@
+
+body{
+  background: #e0e0e0;
+}
+
+#container{
+  margin-top: 12vh;
+  width: 100%;
+}
+
+.user-wel{
+  box-shadow: 5px 5px 20px #bebebe,
+              -5px -5px 20px #ffffff !important;
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+#upload-btn{
+  box-shadow: 5px 5px 20px #bebebe,
+              -5px -5px 20px #ffffff !important;
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-top: 3vh;
+}
+
+#upload-btn:hover{
+  box-shadow: inset 5px 5px 20px #bebebe,
+              inset -5px -5px 20px #ffffff !important;
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-top: 3vh;
+}
+
+#image{
+  border-radius: 50px;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+
+#editor{
+  height: 50vh;
+  margin: 0px 60px !important;
+  width: 80vw;
+  padding: 20px;
+  box-shadow: inset 5px 5px 20px #bebebe,
+             inset -5px -5px 20px #ffffff;
+  border-radius: 30px;
+}
+
+.ham{
+  padding: 12px 16px;
+  border-radius: 15px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+}
+
+.ham:hover{
+box-shadow: inset 5px 5px 5px #808080,
+            inset -5px -5px 5px #ffffff !important;
+}
+
+#sidebar{
+  width: 250px; 
+  height: 100%; 
+  position: fixed; 
+  top: 0; 
+  left: -250px; 
+  background-color: #e0e0e0; 
+  overflow-x: hidden;
+  transition: 0.5s; 
+  padding-top: 60px;
+  padding: 20px;
+  box-shadow: 5px 5px 20px #bebebe,
+              -5px -5px 20px #ffffff !important;
+}
+
+#logo{
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
+}
+
+#logomain{
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+}
+
+
+.login{
+  padding: 0px 16px;
+  padding-top: 12px;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+  border-radius: 15px;
+}
+
+.login:hover{
+  
+  box-shadow: inset 5px 5px 5px #808080,
+            inset -5px -5px 5px #ffffff !important;
+}
+
+.ql-toolbar{
+  margin: 0px 60px;
+  margin-top: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none !important;
+}
+
+#ql-picker-options-0{
+  box-shadow:  5px 5px 20px #bebebe,
+              -5px -5px 20px #ffffff !important;
+  background-color: #e0e0e0 !important;
+  border-radius: 10px;
+}
+
+span.ql-picker-item:hover{
+  box-shadow: inset 5px 5px 20px #bebebe,
+              inset -5px -5px 20px #ffffff !important;
+  background-color: #e0e0e0 !important;
+  padding: 4px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+
+
+.navbar{
+  background: #e0e0e0;
+  box-shadow:  5px 5px 20px #bebebe,
+             -5px -5px 20px #ffffff;
+  padding: 20px 40px;
+  border-radius: 20px;
+}
+
+.mdi-light--hamburger {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M7 4h9a5 5 0 0 1 5 5H2a5 5 0 0 1 5-5m9 1H7C5.14 5 3.57 6.27 3.13 8h16.74c-.44-1.73-2.01-3-3.87-3m5 11a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5zM7 20h9c1.86 0 3.43-1.27 3.87-3H3.13c.44 1.73 2.01 3 3.87 3m5.5-10l2 2l2-2H19a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-1a2 2 0 0 1 2-2zm2 3.41L12.09 11H4a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h15a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1h-2.09z'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+.mdi-light--arrow-right-circle {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M6 12h8.25L11 8.75l.67-.75l4.5 4.5l-4.5 4.5l-.67-.75L14.25 13H6zm15 .5a9.5 9.5 0 0 1-9.5 9.5C6.26 22 2 17.75 2 12.5A9.5 9.5 0 0 1 11.5 3a9.5 9.5 0 0 1 9.5 9.5m-1 0A8.5 8.5 0 0 0 11.5 4A8.5 8.5 0 0 0 3 12.5a8.5 8.5 0 0 0 8.5 8.5a8.5 8.5 0 0 0 8.5-8.5'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
