@@ -6,6 +6,6 @@ A Text Editor application that sync with Google Drive and helps you edit them as
 
 ## Technologies
 
- -Brython
- -FastAPI
- -Google Drive
+ - Brython
+ - FastAPI
+ - Google Drive
